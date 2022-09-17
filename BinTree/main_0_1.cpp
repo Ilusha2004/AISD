@@ -70,15 +70,17 @@ int main() {
 
     KbinTree main;
 
-    // ifstream in("input.txt");
-    // main.out = ofstream("output.txt");
+    ifstream in("input.txt");
+    main.out = ofstream("output.txt");
 
     int i;
     string str;
     
-   
+    while(in){
+        in >> i;
+        main.Insert(i);
+    }
 
     main.PrintLeftSide();
-
 
 }
