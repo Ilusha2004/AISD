@@ -34,6 +34,7 @@ int main(){
             preobr[i][k] = min(min(preobr[i - 1][k] + D, preobr[i][k - 1] + I), preobr[i - 1][k - 1] + R);
         }
     }
+    
 
     for(auto i : preobr){
         for(auto& id : i){
