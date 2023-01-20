@@ -18,10 +18,10 @@ int main() {
 
     for (size_t i = 0; i < array.size(); i++){
         for (int j = 0; j < i; j++) {
-            if (array[j] != 0) {
+            if (!array[j]) {
                 continue;
             }
-            if (array[i] % array[j] != 0) {
+            if (!(array[i] % array[j])) {
                 newarray[i] = max(newarray[j], newarray[i]);
             }
         }
