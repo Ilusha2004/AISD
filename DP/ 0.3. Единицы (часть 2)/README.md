@@ -1,7 +1,7 @@
 # Problem 0.3. Единицы (часть 2).
-    
+
 *Input file name: standard input\
-Output file name: standard output\        
+Output file name: standard output\
 Time limit: 1 s\
 Memory limit: 256 MB*
 
@@ -18,7 +18,7 @@ Memory limit: 256 MB*
 | bst.in                                         |bst.out                                         |
 |------------------------------------------------|------------------------------------------------|
 | 3 2                                          | 3                                           |
-| 4 0                                           |  1                             |              
+| 4 0                                           |  1                             |
 | 5 4                                       |            5                                    |
 | 6 4                                        |              15                                  |
 | 7 2                                          |         21                                       |
